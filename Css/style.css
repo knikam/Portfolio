@@ -3,6 +3,7 @@ html body{
     padding: 0;
     position: relative;
     font-family: 'Poppins',sans-serif;
+    font-size: 12px;
     height: 100vh;
 }
 
@@ -32,7 +33,7 @@ header{
 
 header .logo {
     color: white;
-    font-size: 24px;
+    font-size: 14px;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 2px;
@@ -75,7 +76,7 @@ li .active{
 #home{
     position: absolute;
     display: flex;
-    height: 100%;
+    height: 100vh;
     top:0;
     align-items: center;
     background-color: #00000000;
@@ -92,7 +93,7 @@ li .active{
 }
 
 #home h2 span{
-    font-size: 50px;
+    font-size: 32px;
     font-weight: 600;
 }
 
@@ -115,7 +116,7 @@ li .active{
 }
 .right h2{
     color: #fbfbfb;
-    font-size: 40px;
+    font-size: 24px;
     font-weight: bold;
 }
 /* Project */
@@ -125,14 +126,14 @@ li .active{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height:100%;
+    height:auto;
     background-color:#000000;
     background-position: right;
 }
 
 #project h1{
     color: white;
-    font-size: 40px;
+    font-size: 28px;
     font-weight: 700;
     align-self: center;
     margin-top: 10%;
@@ -150,7 +151,7 @@ li .active{
     align-items: center;
     color: white;
     width:30%;
-    height: 90%;
+    height:auto;
     margin: 2%;
     background-color: #194264;
     border-radius: 0px 20px;
@@ -163,14 +164,14 @@ li .active{
 }
 
 .card .header{
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 500;
     text-align: center;
     border-radius: 20px;
 }
 
 .card .content{
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 300px;
     padding-left: 20px;
     padding-right: 20px;
@@ -208,13 +209,13 @@ li .active{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100%;
+    height: auto;
     background-color:#000000;
 }
 
 #services h1{
     color: white;
-    font-size: 40px;
+    font-size: 28px;
     font-weight: 700;
     align-self: center;
     margin-top: 10%;
@@ -249,14 +250,14 @@ li .active{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height:100%;
+    height:auto;
     background-color:#000000;
     background-position: right;
 }
 
 #testimonial h1{
     color: white;
-    font-size: 40px;
+    font-size: 28px;
     font-weight: 700;
     align-self: center;
     margin-top: 10%;
@@ -268,6 +269,7 @@ li .active{
     flex-direction: column;
     color: white;
     width: 45%;
+    height: auto;
     height: max-content;
     background-color: #ec5d44;
     border-radius: 0px 20px;
@@ -283,7 +285,7 @@ li .active{
 
     position: relative;
     display: flex;
-    height:100%;
+    height:auto;
     color: white;
     background-color:#11324d;
     background-position: right;
@@ -297,7 +299,7 @@ li .active{
 }
 
 .contactus h1{
-    font-size: 38px;
+    font-size: 28px;
     font-weight: bold;
 }
 
@@ -316,7 +318,7 @@ li .active{
     width: 300px;
     background-color: rgb(226, 226, 226);
     color: rgb(0, 0, 0);
-    font-size: 18px;
+    font-size: 14px;
     border: .5px solid rgb(80, 80, 80);
     border-radius: 2px;
 }
