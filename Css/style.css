@@ -560,7 +560,7 @@ li .active{
     width: 80%;
     background-color: rgb(226, 226, 226);
     color: rgb(0, 0, 0);
-    font-size: 18px;
+    font-size: 14px;
     border: .5px solid rgb(80, 80, 80);
     border-radius: 2px;
 }
