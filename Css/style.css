@@ -566,3 +566,57 @@ li .active{
 }
 
 }
+
+
+/* 
+------------------------------------------------
+Animation
+
+-----------------------------------------------
+*/
+
+.text-focus-in {
+	-webkit-animation: text-focus-in 3s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+/**
+ * ----------------------------------------
+ * animation text-focus-in
+ * ----------------------------------------
+ */
+ @-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    50%{
+        -webkit-filter: blur(6px);
+              filter: blur(6px);
+      opacity: 0.5;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes text-focus-in {
+    0% {
+        -webkit-filter: blur(12px);
+                filter: blur(12px);
+        opacity: 0;
+      }
+      50%{
+          -webkit-filter: blur(6px);
+                filter: blur(6px);
+        opacity: 0.5;
+      }
+      100% {
+        -webkit-filter: blur(0px);
+                filter: blur(0px);
+        opacity: 1;
+      }
+  }
+  
