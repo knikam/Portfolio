@@ -73,17 +73,18 @@ function handleEvent(e) {
       r: 0,
       fill: currentColor,
       stroke: {
-        width: 3,
+        width: 50,
         color: currentColor
       },
       opacity: 1
     });
+    
     var rippleAnimation = anime({
       targets: ripple,
       r: rippleSize,
       opacity: 0,
       easing: "easeOutExpo",
-      duration: 900,
+      duration: 3000,
       complete: removeAnimation
     });
     
